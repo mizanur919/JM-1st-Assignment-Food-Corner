@@ -45,7 +45,7 @@ body{
 
 .banner-area-left p{
     color: #939393;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 60px 0;
 }
 
@@ -89,7 +89,7 @@ body{
 
 .about-area-right p{
     color: #939393;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 60px 0;
     text-align: left;
 }
@@ -106,3 +106,42 @@ body{
 .about-area-left img{
     width: 50%;
 }
+
+/* Recipies-Area */
+.recipies-area{
+    padding: 120px 0;
+}
+.recipies-info{
+    text-align: center;
+}
+.recipies-info h2{
+    font-size: 2.5rem;
+    color: #575757;
+    text-transform: capitalize;
+}
+
+.recipies-info p{
+    color: #939393;
+    font-size: 1rem;
+}
+
+.recipies-details{
+    display: flex;
+}
+
+.recipies-details .recipies-half{
+    width: 30%;
+    border: 5px solid #fff;
+    box-shadow: 10px 10px 20px #000;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.recipies-details .recipies-half:nth-child(2){
+    margin: 0 5%;
+}
+
+.recipies-details .recipies-half img{
+    width: 100%;
+}
+
