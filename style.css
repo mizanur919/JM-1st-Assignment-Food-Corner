@@ -22,6 +22,7 @@ body{
 /* Menu Area */
 .main-area{
     background: #0B0D17;
+    padding: 10px 0;
 }
 
 .logo-menu{
@@ -138,7 +139,7 @@ body{
 
 .about-area-right p{
     color: #252525;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 60px 0;
     text-align: left;
 }
@@ -149,7 +150,6 @@ body{
 
 .about-area-right{
     margin-left: 5%;
-    text-align: center;
 }
 
 .about-area-left img{
@@ -186,7 +186,7 @@ body{
     border: 5px solid #fff;
     box-shadow: 0px 0px 20px 0px #5757573d;
     border-radius: 20px;
-    padding: 10px;
+    padding: 10px 10px 25px 10px;
 }
 
 .recipies-details .recipies-half:nth-child(2){
@@ -207,7 +207,7 @@ body{
 
 
 .social-media-area{
-    padding: 30px 0;
+    padding: 30px 0 80px 0;
 }
 
 .social-media-list{
@@ -268,4 +268,122 @@ body{
     color: #fff;
     font-size: .9rem;
     font-weight: 200;
+}
+
+/* Contact Area */
+
+.contact-area{
+    padding: 0 0 80px 0;
+}
+
+.contact-area h2{
+    font-size: 2.5rem;
+    color: #575757;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.contact{
+    display: flex;
+}
+
+.contact-details{
+    width: 30%;
+}
+
+.contact .address{
+    margin: 0 5% 0 15%;
+}
+
+.contact .info{
+    margin: 0 15% 0 5%;
+}
+
+.contact .address h3{
+    font-size: 1.5rem;
+    color: #000;
+    text-transform: capitalize;
+    text-align: left;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+.contact .address p{
+    color: #252525;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.contact .address .social-media{
+    padding-bottom:  10px;
+}
+
+.contact .address a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #E5293D;
+    border: 2px solid transparent;
+    transition: .2s ease;
+}
+
+.contact .address p{
+    margin: 0;
+    padding: 0;
+}
+
+.contact .address a:hover{
+    color: #E5293D;
+    background-color: #fff;
+    border: 2px solid #E5293D;
+}
+.contact .info{
+    margin-left: 5%;
+}
+
+.contact .info input, textarea{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid transparent;
+}
+
+.contact .info textarea{
+    border: 2px solid #575757;
+}
+
+.contact .info input:focus, 
+.contact .info textarea:focus{
+    outline: none;
+    border: 2px solid #E5293D;
+}
+
+.contact .info input{
+    border: 1px solid #575757;
+    padding: 10px 0 10px 10px;
+}
+
+.contact .info form .email{
+    margin: 20px 0;
+}
+
+.contact .info button{
+    color: #fff;
+    background-color: #E5293D;
+    border: 2px solid transparent;
+    margin: 25px 0 0 0;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: .2s ease;
+}
+
+.contact .info button:hover{
+    color: #E5293D;
+    background-color: #fff;
+    border: 2px solid #E5293D;
+    cursor: pointer;
 }
