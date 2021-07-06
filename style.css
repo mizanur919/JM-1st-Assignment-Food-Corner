@@ -19,6 +19,44 @@ body{
     box-shadow: -10px 0px 15px -5px #e5293d
 }
 
+/* Menu Area */
+.main-area{
+    background: #0B0D17;
+}
+
+.logo-menu{
+    display: flex;
+}
+
+.logo{
+    width: 30%;
+    margin-right: 5%;
+}
+
+.menu{
+    width: 65%;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.menu ul li:hover a{
+    background: #E5293D;
+}
+
 /* Banner Area */
 
 .banner-area{
