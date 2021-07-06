@@ -26,11 +26,21 @@ body{
 
 .logo-menu{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo{
+.logo-menu .logo{
     width: 30%;
     margin-right: 5%;
+}
+
+.logo-menu .logo a{
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .menu{
@@ -43,7 +53,7 @@ body{
 }
 
 .menu ul li{
-    display: inline;
+    display: inline-block;
 }
 
 .menu ul li a{
@@ -88,7 +98,7 @@ body{
 }
 
 .banner-area-left{
-    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .banner-area-right{
